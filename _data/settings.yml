@@ -1,7 +1,7 @@
 basic_settings:
   site_title: Pio Molina
   site_tagline: Full Stack Web Developer
-  favicon_image: /images/favicon.png
+  favicon_image: /images/lego.png
 
 header_settings:
   avatar_image: /images/Pio_HQ_Headshot2.jpg
