@@ -4,7 +4,7 @@ basic_settings:
   favicon_image: /images/favicon.png
 
 header_settings:
-  avatar_image: /images/Pio_HQ_Headshot2.JPG
+  avatar_image: /images/Pio_HQ_Headshot2.jpg
   logo_image:
   logo_width: 200
 
