@@ -2,7 +2,7 @@
 title: About Me
 description: Musicians Make the Best Programmers
 subtitle: "Musicians Make the Best Programmers"
-featured_image: /images/social.jpg
+featured_image: /images/site-preview.png
 ---
 
 <div class="gallery" data-columns="2">
