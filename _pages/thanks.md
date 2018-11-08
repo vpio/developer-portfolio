@@ -1,10 +1,9 @@
 ---
 title: Thank you
 subtitle: Your message was sent successfully.
-description: Simples is a super simple blogging theme for Jekyll.
-featured_image: /images/demo/demo-landscape.jpg
+description: Thanks for Contacting Pio
 ---
 
-![](/images/demo/demo-landscape.jpg)
+![](/images/thumbs.png)
 
-Please note, this contact form is for demo purposes only and is not monitored. Please contact us [via our website](https://jekyllthemes.io) if you need support.
+Im you haven't taken a look already. Please check out my [GitHub Profile](https://github.com/vpio) - I am very proud of my code!
