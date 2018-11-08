@@ -1,6 +1,6 @@
 ---
 title: About Me
-description: Musicians Make the Best Programmers
+description: Musicians Make Great Programmers
 subtitle: "Musicians Make the Best Programmers"
 featured_image: /images/site-preview.png
 ---
