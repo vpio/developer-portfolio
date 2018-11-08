@@ -2,6 +2,7 @@
 title: Thank you
 subtitle: Your message was sent successfully.
 description: Thanks for Contacting Pio
+featured_image: /images/site-preview.png
 ---
 
 ![](/images/thumbs.png)
