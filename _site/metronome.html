@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Simple Metronome</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/semantic-ui@2.4.2/dist/semantic.min.css">
+    <script
+    src="https://code.jquery.com/jquery-3.3.1.min.js"
+    integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+    crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/semantic-ui@2.4.2/dist/semantic.min.js"></script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/tone/13.0.1/Tone.min.js'>
+    </script>
+    <link rel="stylesheet" type="text/css" href="css/metronome.css">
+  </head>
+  <body>
+    <div class="main">
+      <div class="centered">
+        <div class='bpm-controls'>
+          <button id='minus-1'>
+            <i class="fas fa-minus" id="bpm-control" ></i>
+          </button>
+          <h1 id='current-bpm'></h1>
+          <button id='plus-1' value=-1 >
+            <i class="fas fa-plus" id="bpm-control" ></i>
+          </button>
+        </div>
+        <div style='padding-top: 20px'>
+          <button class="ui button" type="button" name="button" id='play-button' ><i id='met-button' class="fas fa-play"></i></button>
+        </div>
+      </div>
+    </div>
+    <div class="footer">
+      <ul>
+        <li><i>Press Enter to start and stop the Metronome.</i></li>
+        <li><i>Use the Up and Down arrow keys to change the BPM.</i></li>
+        <li><i>Submit feedback</i></li>
+        <li><i>Connect with me on <a href="https://www.linkedin.com/in/piomolina/">LinkedIn</a> to follow my #30AppChallenge</i></li>
+      </ul>
+    </div>
+  </body>
+  <script src='/js/metronome.js'>
+  </script>
+</html>
