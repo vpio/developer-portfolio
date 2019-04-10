@@ -26,15 +26,10 @@ Thanks to a youtube channel called [The Audio Programmer](https://www.youtube.co
 
 If you'd like to check out the code for the _Full Project_ go [here](https://github.com/vpio/Simple-Metronome) to see the GitHub repository.
 
-<div class="gallery" data-columns="6">
-  <img>
-	<img src="/images/React-icon.svg">
-</div>
-
 ---
 
 <!-- <iframe width="150" height="74" src="https://player.vimeo.com/video/306033787" frameborder="0" allowFullScreen mozallowfullscreen webkitAllowFullScreen></iframe> -->
 
 Thanks for reading! Please feel free to connect with me on LinkedIn to follow my #30AppChallenge
 
-<a href="#" class="button button--large">Link to Full Repository</a>
+<a href="https://www.linkedin.com/in/piomolina/" class="button button--large">LinkedIn</a>

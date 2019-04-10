@@ -20,19 +20,19 @@
 
 	<!-- Page Info -->
 	<link rel="shortcut icon" href="/images/lego.png">
-	<title>Simple Metronome – Pio Molina</title>
-	<meta name="description" content="A Metronome Application built with Tone.js">
+	<title>Simple Keyboard – Pio Molina</title>
+	<meta name="description" content="A Keyboard Application built with Tone.js">
 
 	<!-- Twitter Card -->
 	<meta name="twitter:card" content="summary_large_image">
-	<meta name="twitter:title" content="Simple Metronome – Pio Molina">
-	<meta name="twitter:description" content="A Metronome Application built with Tone.js">
-	<meta name="twitter:image:src" content="http://localhost:4000/images/30day/metronome-scrn1.png">
+	<meta name="twitter:title" content="Simple Keyboard – Pio Molina">
+	<meta name="twitter:description" content="A Keyboard Application built with Tone.js">
+	<meta name="twitter:image:src" content="http://localhost:4000/images/30day/keyboard_scrn.png">
 
 	<!-- Facebook OpenGraph -->
-	<meta property="og:title" content="Simple Metronome – Pio Molina" />
-	<meta property="og:description" content="A Metronome Application built with Tone.js" />
-	<meta property="og:image" content="http://localhost:4000/images/30day/metronome-scrn1.png" />
+	<meta property="og:title" content="Simple Keyboard – Pio Molina" />
+	<meta property="og:description" content="A Keyboard Application built with Tone.js" />
+	<meta property="og:image" content="http://localhost:4000/images/30day/keyboard_scrn.png" />
 
 	
 	<!-- Font Embed Code -->
@@ -66,7 +66,7 @@
 </head>
 
 
-<body class="loading" data-site-url="http://localhost:4000" data-page-url="/blog/metronome">
+<body class="loading" data-site-url="http://localhost:4000" data-page-url="/blog/keyboard">
 
 
 	<header class="header">
@@ -121,37 +121,39 @@
 	
 	<div class="page">
 
-		<div class="page__content" data-page-title="Simple Metronome – Pio Molina" data-image="/images/30day/metronome-scrn1.png">
+		<div class="page__content" data-page-title="Simple Keyboard – Pio Molina" data-image="/images/30day/keyboard_scrn.png">
 
 			<section class="single">
 
 	<div class="wrap">
 
-		<h1>Simple Metronome</h1>
-		<p class="subtitle">08 April 2019</p>
+		<h1>Simple Keyboard</h1>
+		<p class="subtitle">09 April 2019</p>
 
-		<p><img src="/images//30day/metronome-scrn1.png" alt="" /></p>
+		<p><img src="/images//30day/keyboard_scrn.png" alt="" /></p>
 
 <h2 id="what-is-it">What is it?</h2>
 
 <ul>
-  <li>A simple Metronome application built with the Tone.js library</li>
-  <li>Set the bpm and press play and this app will play a sample of a woodblock to keep the time for you.</li>
+  <li>A simple Keyboard application built with the Tone.js library</li>
+  <li>Type 8 unique characters to set the notes for your C major scale</li>
+  <li>Once the keyboard is initialized, have fun and start playing some music!</li>
+  <li>Change the octave of the keyboard by pressing the up and down arrow keys</li>
 </ul>
 
-<p><em>This App is live! Go <a href="http://piomolina.com/metronome">here</a> to try it out for yourself!</em></p>
+<p><em>This App is live! Go <a href="http://piomolina.com/keyboard">here</a> to try it out for yourself!</em></p>
 
 <hr />
 
-<h3 id="working-with-audio">Working with Audio</h3>
+<h3 id="mapping-the-keys">Mapping The Keys</h3>
 
-<p>Since I move into technology, it’s always seemed intimidating to get into any sort of audio programming. With the assistance of the Tone.js library, my first voyage was fairly painless.</p>
+<p>The main challenge I faced in building this application was figuring out an optimal way to map the notes to the keys.</p>
 
-<p>I initially tried to create this application with the Howler.js library. This is another incredible library for working with audio in web development, with one major shortcoming. When I finally got my woodblock sample to play on a loop at set intervals, I noticed that the timing was inconsistent.</p>
+<p>My first idea was that the keys would be fixed to <code class="highlighter-rouge">a s d f g h j k</code>. However, I wanted the code to be generated rather than written in at author time, and I wasn’t sure how to express the relationship of those keys in a simple programmatic way.</p>
 
-<p>Thanks to a youtube channel called <a href="https://www.youtube.com/channel/UCpKb02FsH4WH4X_2xhIoJ1A">The Audio Programmer</a> and this <a href="https://www.youtube.com/watch?v=31Qm_upl8kU">video</a>, I learned that the internal JS clock (forgive me if I totally butcher this I know i’m barely scraping the surface) is not very precise. However, there is a web API called <code class="highlighter-rouge">AudioContext</code> which has an extremely precise clock for working with audio - and the Tone library provides easy ways to manipulate audio against that clock using built in methods.</p>
+<p>Instead, I decided to let the end user pick the keys for their keyboard, indexing each unique key that was pressed. The notes themselves are contained in an array called <code class="highlighter-rouge">orderedNotes</code> and the mapped keys get pushed into an array called <code class="highlighter-rouge">keyMap</code>. To select the corresponding note use <code class="highlighter-rouge">orderedNotes[keyMap]</code>.</p>
 
-<p>If you’d like to check out the code for the <em>Full Project</em> go <a href="https://github.com/vpio/Simple-Metronome">here</a> to see the GitHub repository.</p>
+<p>If you’d like to check out the code for the <em>Full Project</em> go <a href="https://github.com/vpio/Simple-Piano-App">here</a> to see the GitHub repository.</p>
 
 <hr />
 
