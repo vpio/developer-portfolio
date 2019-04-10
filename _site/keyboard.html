@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>A Simple Keyboard Player App</title>
+  </head>
+  <body style='background-color: black; color: white; font-family: helvetica;'>
+    <div style='text-align: center'>
+      <h1 id='message'></h1>
+      <div id='current-note' style='height: 400px; padding-top: 100px;'>
+      </div>
+      <ul
+      id='selectedKeys'
+      style='list-style-type: none; display: flex; flex-direction: row; justify-content: space-around'
+      >
+      </ul>
+      <p id='small-message' style='padding-top: 50px'></p>
+    </div>
+  </body>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/tone/13.0.1/Tone.min.js"></script>
+  <script src="/js/keyboard.js"></script>
+</html>
