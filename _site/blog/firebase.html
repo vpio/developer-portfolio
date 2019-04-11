@@ -20,19 +20,19 @@
 
 	<!-- Page Info -->
 	<link rel="shortcut icon" href="/images/lego.png">
-	<title>Pio Molina – Full Stack Web Developer</title>
-	<meta name="description" content="Pio Molina. Full Stack Web Developer">
+	<title>Learning Firebase – Pio Molina</title>
+	<meta name="description" content="Two simple applications built with Firebase">
 
 	<!-- Twitter Card -->
 	<meta name="twitter:card" content="summary_large_image">
-	<meta name="twitter:title" content="Pio Molina – Full Stack Web Developer">
-	<meta name="twitter:description" content="Pio Molina. Full Stack Web Developer">
-	<meta name="twitter:image:src" content="http://localhost:4000/images/site-preview.png">
+	<meta name="twitter:title" content="Learning Firebase – Pio Molina">
+	<meta name="twitter:description" content="Two simple applications built with Firebase">
+	<meta name="twitter:image:src" content="http://localhost:4000/images/30day/firebase_scrn.png">
 
 	<!-- Facebook OpenGraph -->
-	<meta property="og:title" content="Pio Molina – Full Stack Web Developer" />
-	<meta property="og:description" content="Pio Molina. Full Stack Web Developer" />
-	<meta property="og:image" content="http://localhost:4000/images/site-preview.png" />
+	<meta property="og:title" content="Learning Firebase – Pio Molina" />
+	<meta property="og:description" content="Two simple applications built with Firebase" />
+	<meta property="og:image" content="http://localhost:4000/images/30day/firebase_scrn.png" />
 
 	
 	<!-- Font Embed Code -->
@@ -66,7 +66,7 @@
 </head>
 
 
-<body class="loading" data-site-url="http://localhost:4000" data-page-url="/">
+<body class="loading" data-site-url="http://localhost:4000" data-page-url="/blog/firebase">
 
 
 	<header class="header">
@@ -121,80 +121,57 @@
 	
 	<div class="page">
 
-		<div class="page__content" data-page-title="Pio Molina – Full Stack Web Developer" data-image="/images/site-preview.png">
+		<div class="page__content" data-page-title="Learning Firebase – Pio Molina" data-image="/images/30day/firebase_scrn.png">
 
-			<section class="listing single">
+			<section class="single">
 
 	<div class="wrap">
 
-		
+		<h1>Learning Firebase</h1>
+		<p class="subtitle">10 April 2019</p>
 
-		<article class="listing-post">
+		<h1 id="tutorial-1---cloud-cafe-by-the-net-ninja">Tutorial #1 - Cloud Cafe by <a href="https://www.youtube.com/watch?v=4d-gIPGzmK4">The Net Ninja</a></h1>
 
-			<div class="listing-post__header">
-				<h2 class="listing-post__title"><a href="/blog/firebase">Learning Firebase</a></h2>
-				<p class="listing-post__subtitle">10 April 2019</p>
-			</div>
+<p><img src="/images/30day/firebase_cafe_scrn.png" alt="" /></p>
 
-			
-			<a href="/blog/firebase" class="listing-post__image" style="background-image: url(/images/30day/firebase_scrn.png);"></a>
-			
+<h2 id="what-is-it">What is it?</h2>
 
-			<div class="listing-post__content">
-				<p>Two simple applications built with Firebase</p>
-				<p><a href="/blog/firebase" class="button">Read More</a>
-			</div>
+<ul>
+  <li>A simple CRUD application that allows you to add cafe names and locations to a list.</li>
+  <li>This application utilizes the Firebase Web API in order to access <code class="highlighter-rouge">read</code> and <code class="highlighter-rouge">write</code> capabilities on your Firebase Database.</li>
+</ul>
 
-		</article>
+<p><a href="https://github.com/vpio/Net-Ninja-Firebase-Tutorial" class="button button--large">View Source Code</a></p>
 
-		
+<hr />
 
-		<article class="listing-post">
+<h1 id="tutorial-2---file-storage-by-google">Tutorial #2 - File Storage by <a href="https://youtu.be/SpxHVrpfGgU">Google</a></h1>
 
-			<div class="listing-post__header">
-				<h2 class="listing-post__title"><a href="/blog/keyboard">Simple Keyboard</a></h2>
-				<p class="listing-post__subtitle">09 April 2019</p>
-			</div>
+<p><img src="/images/30day/firebase_scrn.png" alt="" /></p>
 
-			
-			<a href="/blog/keyboard" class="listing-post__image" style="background-image: url(/images/30day/keyboard_scrn.png);"></a>
-			
+<h2 id="what-is-it-1">What is it?</h2>
 
-			<div class="listing-post__content">
-				<p>A Keyboard Application built with Tone.js</p>
-				<p><a href="/blog/keyboard" class="button">Read More</a>
-			</div>
+<ul>
+  <li>A simple read and write application that lets you upload a file object to Firebase storage, download it, and view it in your browser.</li>
+  <li>This application utilizes the Firebase Web API in order to access <code class="highlighter-rouge">read</code> and <code class="highlighter-rouge">write</code> capabilities on your Firebase Storage.</li>
+</ul>
 
-		</article>
+<p><a href="https://github.com/vpio/Firebase-Storage-Tutorial" class="button button--large">View Source Code</a></p>
 
-		
+<h2 id="firebase">Firebase</h2>
 
-		<article class="listing-post">
+<p>I took on these tutorials to learn Firebase because i’ve been wanting to gain familiarity with a backend framework that utilizes a non-relational database. I had heard a lot of great things about the platform and its simplicity, and I wanted to learn something fast so I could build a Full Stack application for my 30 app challenge (without using Ruby on Rails).</p>
 
-			<div class="listing-post__header">
-				<h2 class="listing-post__title"><a href="/blog/metronome">Simple Metronome</a></h2>
-				<p class="listing-post__subtitle">08 April 2019</p>
-			</div>
+<p>I was pleasantly surprised by how easy it was to use Firebase. With Firebase, Google even took the time to eliminate some of the most trivial headaches. For example, rather than formatting a <code class="highlighter-rouge">fetch</code> request or installing a package to handle requests, the api has a built in function called <code class="highlighter-rouge">get()</code> that points to the database url contained in the <code class="highlighter-rouge">config</code> object thats passed when you initialize your firebase application.</p>
 
-			
-			<a href="/blog/metronome" class="listing-post__image" style="background-image: url(/images/30day/metronome-scrn1.png);"></a>
-			
+<p>I am excited to keep exploring Firebase. Please connect with me on LinkedIn to follow my #30AppChallenge!</p>
 
-			<div class="listing-post__content">
-				<p>A Metronome Application built with Tone.js</p>
-				<p><a href="/blog/metronome" class="button">Read More</a>
-			</div>
+<p><a href="https://www.linkedin.com/in/piomolina/" class="button button--large">LinkedIn</a></p>
 
-		</article>
-
-		
 
 	</div>
 
 </section>
-
-
-
 
 		</div>
 
