@@ -1,11 +1,11 @@
 ---
 title: 'E-commerce Beat Store'
 date: 2019-04-14 00:00:00
-featured_image: '/images/30day/beatstore_scrn.png'
+featured_image: '/images/30day/beatstore.gif'
 excerpt: A simple E-commerce application made with React, Tone.js, and Firebase
 ---
 
-![](/images/30day/beatstore_scrn.png)
+![](/images/30day/beatstore.gif)
 
 ## What is it?
 
