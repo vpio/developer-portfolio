@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+    <div style='display: flex; justify-content: space-between;'>
+      <h3 id='livesCounter'></h3>
+      <h3 id='winsCounter'></h3>
+    </div>
+    <div style='height: 100vh; display: flex; flex-direction: column; align-items: center; text-align: center;'>
+      <h1 id='gameTitleHeader'></h1>
+      <h2 id='gameInstructionHeader'></h2>
+      <h1 id='gameResult'></h1>
+      <h1 id='gameDisplay' style='height: 5vh;'></h1>
+      <button type="button" id='left-right-select'>Left or Right</button>
+      <button type="button" id='time-select'>Time Attack</button>
+      <div>
+        <button type="button" id='backButton' style='display: none;'>Back</button>
+      </div>
+    </div>
+    <script src="/js/minigamesJS/helperFunctions.js" charset="utf-8"></script>
+    <script src="/js/minigamesJS/games.js" charset="utf-8"></script>
+    <script src="/js/minigamesJS/app.js" charset="utf-8"></script>
+  </body>
+</html>
