@@ -14,7 +14,7 @@ excerpt: Two simple minigames made with Vanilla JS
 
 _This App is live! Go [here](http://piomolina.com/minigames) to try it out for yourself!_
 
-<a href="https://github.com/vpio/Beat-Store" class="button button--large">View Source Code</a>
+<a href="https://github.com/vpio/Mini-Games" class="button button--large">View Source Code</a>
 
 ---
 
