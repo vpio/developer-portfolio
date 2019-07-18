@@ -10,7 +10,7 @@ featured_image: /images/site-preview.png
     <img src="/images/pio_code.jpg">
 </div>
 
-![](/images/Pio_Molina_Resume.jpg)
+![](/images/Pio_Molina_Resume_Latest.jpg)
 
 ## Contact Me
 

@@ -39,7 +39,7 @@ Although I write code in React practically every day, I felt like I was behind t
 I can see myself moving into a completely functional style of programming using React Hooks, and I'd really like to get more familiar with how they work.
 
 Shoutout to David Katz and Valentino Gagliardi for their tutorials! (Links provided above)
-Please connect with me on LinkedIn to follow my #30AppChallenge!
+qPlease connect with me on LinkedIn to follow my #30AppChallenge!
 
 
 <a href="https://www.linkedin.com/in/piomolina/" class="button button--large">LinkedIn</a>
